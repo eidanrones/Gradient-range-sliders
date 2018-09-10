@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  border: 0px solid black;
+}
+
+:root {
+  --slider1: 0;
+  --slider2: 89;
+  --slider3: 63;
+  --slider4: 103;
+  --slider5: 117;
+  --slider6: 66;
+}
+
+
+body {
+  background-image: linear-gradient(rgba(var(--slider1), var(--slider2), var(--slider3),1), rgba(var(--slider4), var(--slider5), var(--slider6), 1));
+  height: 100vh;
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
+}
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 150px;
+  height: 20px;
+  background: ;
+  outline: none; /* Remove outline */
+  }
+
+#sliderRange1, #sliderRange4 {
+  background: rgba(255,0,00,0.5);
+}
+
+#sliderRange2, #sliderRange5 {
+  background: rgba(0,200,0,0.5);
+}
+
+#sliderRange3, #sliderRange6 {
+  background: rgba(0,0,255,0.5);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 18px;
+  height: 24px;
+  background: black;
+  cursor: pointer;
+  border-radius: 0px;
+  }
+
+  p {
+  color: white;
+  width: 150px;
+  }
+
+.colour {
+  height: 300px;
+  background: rgba(0,0,0,0.3);
+  width: 150px;
+  height: 300px;
+  border-radius: 3px;
+  padding: 10px;
+  }
+
+.controls {
+  height: 50%;
+
+}
+
+.colour-area {
+  height: 50%;
+}
